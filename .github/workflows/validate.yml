@@ -1,0 +1,43 @@
+name: Validate modpack
+
+on:
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: "8.0.x"
+
+      - name: Install Thunderstore CLI
+        run: dotnet tool install --global tcli --version 0.2.4
+
+      - name: Every dependency exists at its pinned version
+        run: python scripts/check_pack.py deps
+
+      - name: Version was bumped
+        run: |
+          git show origin/main:thunderstore.toml > /tmp/base.toml
+          python scripts/check_pack.py bumped /tmp/base.toml
+
+      - name: Build package
+        run: tcli build
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: modpack-zip
+          path: build/*.zip
