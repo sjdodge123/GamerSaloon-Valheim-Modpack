@@ -32,6 +32,7 @@ The client mod set for the **Gamer Saloon** Valheim server. Install this one pac
 | ComfyAutoRepair | Repairs everything when you use a crafting station | Optional |
 | InstantMonsterLootDrop | Loot drops instantly, short auto-pickup | Optional |
 | Valheim Voice Chat | Proximity voice chat over Steam | Optional |
+| Discord Screenshots | F12 or dying posts a screenshot to our Discord | Optional |
 
 Libraries pulled in automatically: BepInExPack, Jotunn, JsonDotNET, YamlDotNet, Conditional Config Sync.
 
@@ -44,4 +45,5 @@ Everything else is left at the mod's defaults. Server rules (Seasonality, quick-
 ## Tips
 
 - **Voice chat push-to-talk** defaults to **Left Alt**, which Quick Stack Store also uses for favouriting. Rebind it in the voice chat menu (**F9**) — avoid V and B too (quick slots).
+- **Discord Screenshots** needs no setup: the server tells your game where to post. Leave its webhook settings empty. F12 is also Steam's screenshot key, so rebind one of them if you don't want both.
 - A pack update rewrites the XPortal file above, which resets your personal default portal.
