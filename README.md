@@ -39,11 +39,12 @@ Libraries pulled in automatically: BepInExPack, Jotunn, JsonDotNET, YamlDotNet, 
 ## Settings this pack sets
 
 - **XPortal** — `DisplayPortalColour = true`: shows each portal's colour in the destination list.
+- **Valheim Voice Chat** — `MicGain = 2` (default 1). Voice range is full volume within 10 m and silent past 50 m; the server sets the range for everyone.
 
-Everything else is left at the mod's defaults. Server rules (Seasonality, quick-stack range, Advanced Portals costs) come from the server when you join.
+Everything else is left at the mod's defaults. Server rules (Seasonality, quick-stack range, Advanced Portals costs, voice range) come from the server when you join.
 
 ## Tips
 
 - **Voice chat push-to-talk** defaults to **Left Alt**, which Quick Stack Store also uses for favouriting. Rebind it in the voice chat menu (**F9**) — avoid V and B too (quick slots).
 - **Discord Screenshots** needs no setup: the server tells your game where to post. Leave its webhook settings empty. F12 is also Steam's screenshot key, so rebind one of them if you don't want both.
-- A pack update rewrites the XPortal file above, which resets your personal default portal.
+- A pack update rewrites the XPortal and Voice Chat files above. That resets your personal default portal, and your voice chat mic choice, push-to-talk key and other F9 settings — redo them in **F9** after updating.
