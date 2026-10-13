@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.3.0
+
+- Ships Valheim Voice Chat settings: `MicGain = 2` (was 1). Also `ProximityMinDistance = 10` / `ProximityMaxDistance = 50`; the server now runs the mod and syncs those two to everyone on join, the shipped copy is a fallback.
+
 ## 1.2.0
 
 - Seasonality 3.8.3 -> 3.8.4 (Deep North ice shore on ice shelves; new `Affect Armor` option). The server enforces this version on join.
