@@ -29,8 +29,19 @@ jobs:
       - name: Every dependency exists at its pinned version
         run: python scripts/check_pack.py deps
 
-      - name: Version was bumped
+      - name: Changelog has this version
+        run: python scripts/check_pack.py changelog
+
+      # Only PRs that change what ships to players need a new version; repo-only
+      # changes (CI, scripts, .claude) merge without publishing.
+      - name: Version was bumped (if shipped files changed)
         run: |
+          shipped=$(git diff --name-only origin/main...HEAD -- thunderstore.toml config README.md CHANGELOG.md icon.png)
+          if [ -z "$shipped" ]; then
+            echo "No shipped files changed; no version bump needed."
+            exit 0
+          fi
+          echo "Shipped files changed:"; echo "$shipped"
           git show origin/main:thunderstore.toml > /tmp/base.toml
           python scripts/check_pack.py bumped /tmp/base.toml
 

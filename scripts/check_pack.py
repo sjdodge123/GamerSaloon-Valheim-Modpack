@@ -5,6 +5,8 @@
   check_pack.py bumped <base.toml> versionNumber is higher than the one in <base.toml>
   check_pack.py published         exit 0 if this version is already on Thunderstore, 1 if not
   check_pack.py version           print versionNumber
+  check_pack.py changelog         CHANGELOG.md has a "## <versionNumber>" section
+  check_pack.py updates           list dependencies with a newer (or deprecated) release on Thunderstore
 """
 import json
 import sys
@@ -31,6 +33,13 @@ def exists(namespace, name, version):
         if e.code == 404:
             return False
         raise
+
+
+def latest(namespace, name):
+    req = urllib.request.Request(f"{API}/{namespace}/{name}/", headers=HEADERS)
+    with urllib.request.urlopen(req, timeout=30) as resp:
+        data = json.load(resp)
+    return data["latest"]["version_number"], data["latest"]["date_created"][:10], data["is_deprecated"]
 
 
 def parse_version(v):
@@ -68,6 +77,30 @@ def main():
             print(f"versionNumber {head} must be higher than main's {base} — Thunderstore will not accept the same version twice.")
             return 1
         print(f"version {base} -> {head}")
+        return 0
+
+    if cmd == "changelog":
+        with open("CHANGELOG.md") as f:
+            headings = [line.strip() for line in f if line.startswith("## ")]
+        if f"## {pkg['versionNumber']}" not in headings:
+            print(f"CHANGELOG.md has no '## {pkg['versionNumber']}' section.")
+            return 1
+        print(f"changelog has {pkg['versionNumber']}")
+        return 0
+
+    if cmd == "updates":
+        newer = 0
+        for full, version in pkg["dependencies"].items():
+            namespace, name = full.split("-", 1)
+            newest, date, deprecated = latest(namespace, name)
+            if parse_version(newest) > parse_version(version):
+                newer += 1
+                print(f"NEW {full}: {version} -> {newest} ({date})")
+            else:
+                print(f"ok  {full}-{version}")
+            if deprecated:
+                print(f"    {full} is DEPRECATED on Thunderstore")
+        print(f"\n{newer} dependenc{'y has' if newer == 1 else 'ies have'} a newer release.")
         return 0
 
     if cmd == "published":
