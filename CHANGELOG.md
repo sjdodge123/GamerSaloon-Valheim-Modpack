@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.4.0
+
+- Conditional Config Sync 1.0.10 -> 1.0.11 (config sync keeps going on slow connections instead of timing out).
+- Quick Stack Store 1.4.15 -> 1.4.16 (Spanish and German translations).
+- Server updated to the same versions.
+
 ## 1.3.0
 
 - Ships Valheim Voice Chat settings: `MicGain = 2` (was 1). Also `ProximityMinDistance = 10` / `ProximityMaxDistance = 50`; the server now runs the mod and syncs those two to everyone on join, the shipped copy is a fallback.
