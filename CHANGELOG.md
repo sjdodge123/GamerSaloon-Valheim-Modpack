@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.5.0
+
+- New: RL Valheim Link 0.1.2 (`GamerSaloon-ValheimLink`). On each save, logout or quit your client sends your character, explored map and pins to the server, which pushes them to the group's Raid Ledger; the item catalogue is exported once per game version. Opt out with `[Client] OptOut = true` in `BepInEx/config/RaidLedger.ValheimLink.cfg`. Not join-enforced: without it you simply send nothing.
+- Server runs the same version.
+
 ## 1.4.0
 
 - Conditional Config Sync 1.0.10 -> 1.0.11 (config sync keeps going on slow connections instead of timing out).
