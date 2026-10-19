@@ -33,6 +33,7 @@ The client mod set for the **Gamer Saloon** Valheim server. Install this one pac
 | InstantMonsterLootDrop | Loot drops instantly, short auto-pickup | Optional |
 | Valheim Voice Chat | Proximity voice chat over Steam | Optional |
 | Discord Screenshots | F12 or dying posts a screenshot to our Discord | Optional |
+| RL Valheim Link | Sends your character, explored map and the item catalogue to the group's Raid Ledger site (per-player opt-out in `RaidLedger.ValheimLink.cfg`) | Recommended |
 
 Libraries pulled in automatically: BepInExPack, Jotunn, JsonDotNET, YamlDotNet, Conditional Config Sync.
 
@@ -40,6 +41,7 @@ Libraries pulled in automatically: BepInExPack, Jotunn, JsonDotNET, YamlDotNet, 
 
 - **XPortal** — `DisplayPortalColour = true`: shows each portal's colour in the destination list.
 - **Valheim Voice Chat** — `MicGain = 2` (default 1). Voice range is full volume within 10 m and silent past 50 m; the server sets the range for everyone.
+- **RL Valheim Link** — nothing shipped; it needs no setup on your side. To opt out of sending your character and map, set `[Client] OptOut = true` in `BepInEx/config/RaidLedger.ValheimLink.cfg`.
 
 Everything else is left at the mod's defaults. Server rules (Seasonality, quick-stack range, Advanced Portals costs, voice range) come from the server when you join.
 
