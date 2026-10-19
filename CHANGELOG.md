@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.6.0
+
+- NetworkPerformanceSystem 1.17.0 -> 1.18.0. Server updated to the same version.
+- Portal Preview 1.4.0 -> 1.5.0 (client-only).
+- RL Valheim Link 0.1.3 -> 0.1.5 (captures made on logout/quit are no longer lost; admin list ids in the `Steam_` format are recognised; re-sends automatically after a Raid Ledger instance rebuild; operator instructions on the mod page). Server updated to the same version.
+
 ## 1.5.1
 
 - RL Valheim Link 0.1.2 -> 0.1.3 (fixes the client sending nothing on Valheim 1.0.20). Server updated to the same version.
