@@ -35,7 +35,7 @@ cjayride-InstantMonsterLootDrop = "0.8.2"
 BORTY-ValheimVoiceChat = "2.1.0"
 warpalicious-Discord_Screenshots = "1.6.8"
 # Pushes character / map / item data to the group's Raid Ledger; the server runs it too (not join-enforced).
-GamerSaloon-ValheimLink = "0.1.4"
+GamerSaloon-ValheimLink = "0.1.5"
 
 [build]
 icon = "./icon.png"
