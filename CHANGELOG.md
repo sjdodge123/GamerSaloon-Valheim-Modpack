@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.6.1
+
+- RL Valheim Link 0.1.5 -> 0.2.0. The server now accepts any client on the same link protocol, so future server-side link updates no longer need a pack update; Equipment & Quick Slots rows are labelled correctly; progress lines while the item catalogue uploads; logout captures no longer stall behind large transfers. Server updated to the same version.
+
 ## 1.6.0
 
 - NetworkPerformanceSystem 1.17.0 -> 1.18.0. Server updated to the same version.
