@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.6.3
+
+- RL Valheim Link 0.2.1 -> 0.2.2. Brings the link up to the latest Raid Ledger format (larger item catalogues accepted; groundwork for chest contents and the crafting planner, not sent yet) and fixes a server-only diagnostic log line. Nothing changes in game, and the server's link keeps working with 0.2.1 clients too. Server updated to the same version.
+
 ## 1.6.2
 
 - RL Valheim Link 0.2.0 -> 0.2.1. When the server runs a world it is not set to link (a test world), your client now stops sending for that session instead of sending data the server throws away. The server also logs a read-only survey of chest contents after each start (nothing is uploaded). Server updated to the same version.
