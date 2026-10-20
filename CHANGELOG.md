@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.6.2
+
+- RL Valheim Link 0.2.0 -> 0.2.1. When the server runs a world it is not set to link (a test world), your client now stops sending for that session instead of sending data the server throws away. The server also logs a read-only survey of chest contents after each start (nothing is uploaded). Server updated to the same version.
+- Portal Preview 1.5.0 -> 1.5.1 (client-only): capturing a portal view no longer freezes the game for 1-2 s; fixes white runestones and wrong depth right after a teleport in portal views.
+
 ## 1.6.1
 
 - RL Valheim Link 0.1.5 -> 0.2.0. The server now accepts any client on the same link protocol, so future server-side link updates no longer need a pack update; Equipment & Quick Slots rows are labelled correctly; progress lines while the item catalogue uploads; logout captures no longer stall behind large transfers. Server updated to the same version.
