@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.7.0
+
+- RL Valheim Link 0.2.2 -> 0.4.0. The server now sends the contents of the base's chests (every 10 minutes) and the server's crafting recipes, build pieces and processing steps to the group's Raid Ledger, which fills the Valheim hub's Materials and Planner tabs; personal chests stay visible only to their owner and admins. With 0.4.0 on your client, an admin's game also exports the build-piece and crafting-station icons for the Planner once per game version (like the item catalogue). Nothing changes in game. Server updated to the same version.
+
 ## 1.6.3
 
 - RL Valheim Link 0.2.1 -> 0.2.2. Brings the link up to the latest Raid Ledger format (larger item catalogues accepted; groundwork for chest contents and the crafting planner, not sent yet) and fixes a server-only diagnostic log line. Nothing changes in game, and the server's link keeps working with 0.2.1 clients too. Server updated to the same version.
