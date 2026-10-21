@@ -33,7 +33,7 @@ The client mod set for the **Gamer Saloon** Valheim server. Install this one pac
 | InstantMonsterLootDrop | Loot drops instantly, short auto-pickup | Optional |
 | Valheim Voice Chat | Proximity voice chat over Steam | Optional |
 | Discord Screenshots | F12 or dying posts a screenshot to our Discord | Optional |
-| RL Valheim Link | Sends your character, explored map and the item catalogue to the group's Raid Ledger site (per-player opt-out in `RaidLedger.ValheimLink.cfg`) | Recommended |
+| RL Valheim Link | Sends your character, explored map, the item catalogue and build-piece icons to the group's Raid Ledger site; the server adds chest contents and recipes (per-player opt-out in `RaidLedger.ValheimLink.cfg`) | Recommended |
 
 Libraries pulled in automatically: BepInExPack, Jotunn, JsonDotNET, YamlDotNet, Conditional Config Sync.
 
