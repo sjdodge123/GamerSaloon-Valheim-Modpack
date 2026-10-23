@@ -11,7 +11,7 @@ The client mod set for the **Gamer Saloon** Valheim server. Install this one pac
 ## Updating — please read
 
 - When the pack updates, update **the pack** (GamerSaloon) and nothing else.
-- **Do not click "Update all"** on the individual mods. XPortal and Advanced Portals check versions on join: a mod newer than the server's means you cannot connect. The pack is bumped when the server is.
+- **Do not click "Update all"** on the individual mods. XPortal, Advanced Portals and GroupBoard check versions on join: a mod newer than the server's means you cannot connect. The pack is bumped when the server is.
 
 ## What's in it
 
@@ -20,6 +20,7 @@ The client mod set for the **Gamer Saloon** Valheim server. Install this one pac
 | XPortal | Pick a portal's destination from a list | Yes (exact version) |
 | Advanced Portals | Ancient / Obsidian / Black Marble portals that carry ore | Yes |
 | Seasonality | Seasons, seasonal weather and textures | Yes |
+| GroupBoard | A shared to-do list on a buildable board (Hammer → Misc); any sign starting with `Todo` works too | Yes (1.1.x) |
 | Quick Stack Store | Quick stack (P) / restock (L) to nearby chests, sort, trash | Recommended |
 | Equipment and Quick Slots | Equipment panel + quick slots (Z, V, B) | Recommended |
 | MultiUserChest | Several players can use one chest at once | Recommended |
