@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.9.0
+
+- New: MultiCraft 1.5.0 (`MaxiMods-MultiCraft`, client-side). A −/+ amount selector next to Craft at any crafting station, including the cauldron: click **+**/**−** for 1, **Shift**+click for 10, **Ctrl**+click **+** for the most you can make. It only saves clicks; crafting is not faster. It replaces Valheim's own "Craft x5" shortcut (config `DisableVanillaMultiCraft`). Not needed to join; the server does not run it.
+
 ## 1.8.0
 
 - New: GroupBoard 1.1.1 (`Einherjer-GroupBoard`). A shared to-do list on a buildable Group board (Hammer, Misc tab, needs a workbench; 6 Wood + 1 Coal) that shows the open tasks on its face; `E` opens the list to add, tick off, edit and reorder tasks. A normal sign whose text starts with `Todo` works as a board too. Inside a ward only players with access can change it. **Needed to join**: Jotunn checks it, and any 1.1.x matches the server. Server runs the same version.

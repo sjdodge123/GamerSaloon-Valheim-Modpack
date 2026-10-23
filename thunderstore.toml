@@ -6,7 +6,7 @@ schemaVersion = "0.0.1"
 namespace = "GamerSaloon"
 name = "GamerSaloon"
 # Bump this in every PR that should ship — Thunderstore refuses to re-upload an existing version.
-versionNumber = "1.8.0"
+versionNumber = "1.9.0"
 description = "Client mod set for the Gamer Saloon Valheim server: XPortal, Advanced Portals, Seasonality, Quick Stack Store, Equipment and Quick Slots, voice chat, a group to-do board and QoL. Versions pinned to match the server."
 websiteUrl = "https://github.com/sjdodge123/GamerSaloon-Valheim-Modpack"
 containsNsfwContent = false
@@ -28,6 +28,8 @@ RandyKnapp-AdvancedPortals = "1.2.0"
 Ivvty-PortalPreview = "1.5.1"
 Neobotics-QuietPortals = "1.0.0"
 Toxo-CraftFromChests = "0.4.0"
+# Client-side craft-amount selector (-/+, Shift x10, Ctrl max); not join-enforced.
+MaxiMods-MultiCraft = "1.5.0"
 MainStreetGaming-MassFarming = "1.13.0"
 Biozip-HoverCompare = "0.5.1"
 ComfyMods-ComfyAutoRepair = "1.1.0"
