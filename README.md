@@ -28,6 +28,7 @@ The client mod set for the **Gamer Saloon** Valheim server. Install this one pac
 | Portal Preview | See the destination inside a portal | Optional |
 | Quiet Portals | Quieter portals | Optional |
 | Craft From Chests | Craft using materials in nearby chests | Optional |
+| MultiCraft | Craft several at once: −/+ next to Craft (Shift = ×10, Ctrl = max), at any station including the cauldron; same craft speed | Optional |
 | MassFarming | Plant and harvest in a grid | Optional |
 | HoverCompare | Compare items on hover | Optional |
 | ComfyAutoRepair | Repairs everything when you use a crafting station | Optional |
