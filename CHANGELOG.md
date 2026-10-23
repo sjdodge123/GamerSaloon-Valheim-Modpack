@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.8.0
+
+- New: GroupBoard 1.1.1 (`Einherjer-GroupBoard`). A shared to-do list on a buildable Group board (Hammer, Misc tab, needs a workbench; 6 Wood + 1 Coal) that shows the open tasks on its face; `E` opens the list to add, tick off, edit and reorder tasks. A normal sign whose text starts with `Todo` works as a board too. Inside a ward only players with access can change it. **Needed to join**: Jotunn checks it, and any 1.1.x matches the server. Server runs the same version.
+
 ## 1.7.0
 
 - RL Valheim Link 0.2.2 -> 0.4.0. The server now sends the contents of the base's chests (every 10 minutes) and the server's crafting recipes, build pieces and processing steps to the group's Raid Ledger, which fills the Valheim hub's Materials and Planner tabs; personal chests stay visible only to their owner and admins. With 0.4.0 on your client, an admin's game also exports the build-piece and crafting-station icons for the Planner once per game version (like the item catalogue). Nothing changes in game. Server updated to the same version.
