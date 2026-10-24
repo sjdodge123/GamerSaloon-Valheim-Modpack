@@ -6,7 +6,7 @@ schemaVersion = "0.0.1"
 namespace = "GamerSaloon"
 name = "GamerSaloon"
 # Bump this in every PR that should ship — Thunderstore refuses to re-upload an existing version.
-versionNumber = "1.9.0"
+versionNumber = "1.10.0"
 description = "Client mod set for the Gamer Saloon Valheim server: XPortal, Advanced Portals, Seasonality, Quick Stack Store, Equipment and Quick Slots, voice chat, a group to-do board and QoL. Versions pinned to match the server."
 websiteUrl = "https://github.com/sjdodge123/GamerSaloon-Valheim-Modpack"
 containsNsfwContent = false
@@ -39,7 +39,7 @@ warpalicious-Discord_Screenshots = "1.6.8"
 # Shared to-do board; join-enforced by Jotunn (major.minor must match the server's).
 Einherjer-GroupBoard = "1.1.1"
 # Pushes character / map / item data to the group's Raid Ledger; the server runs it too (not join-enforced).
-GamerSaloon-ValheimLink = "0.4.0"
+GamerSaloon-ValheimLink = "0.4.2"
 
 [build]
 icon = "./icon.png"

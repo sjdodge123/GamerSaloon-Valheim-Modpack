@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.10.0
+
+- RL Valheim Link 0.4.0 -> 0.4.2. Your character's discovered recipes, build pieces and materials now reach Raid Ledger by their item names, so the Planner can show what you have not discovered yet. (They were sent as the game's internal text tokens, which matched nothing.) 0.4.1, included, was a server-side fix to recipe costs for Valheim 1.0. Nothing changes in game. Not needed to join; the server stays compatible with older link versions.
+
 ## 1.9.0
 
 - New: MultiCraft 1.5.0 (`MaxiMods-MultiCraft`, client-side). A −/+ amount selector next to Craft at any crafting station, including the cauldron: click **+**/**−** for 1, **Shift**+click for 10, **Ctrl**+click **+** for the most you can make. It only saves clicks; crafting is not faster. It replaces Valheim's own "Craft x5" shortcut (config `DisableVanillaMultiCraft`). Not needed to join; the server does not run it.
