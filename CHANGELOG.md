@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.11.0
+
+- Seasonality 3.8.4 -> 3.8.5: snow builds up on buildings in winter (configurable); new "summer is never cold" option (not in the mountains or Deep North); weather now changes at the same moment as the season; the season timer was reworked; weather configs accept a decimal comma. **Needed to join**: update the pack before joining. Server updated to the same version.
+
 ## 1.10.0
 
 - RL Valheim Link 0.4.0 -> 0.4.2. Your character's discovered recipes, build pieces and materials now reach Raid Ledger by their item names, so the Planner can show what you have not discovered yet. (They were sent as the game's internal text tokens, which matched nothing.) 0.4.1, included, was a server-side fix to recipe costs for Valheim 1.0. Nothing changes in game. Not needed to join; the server stays compatible with older link versions.
