@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.12.0
+
+- Seasonality 3.8.5 -> 3.8.6: turning the snow build-up setting off now clears the snow from buildings straight away instead of waiting for winter to end. **Needed to join**: update the pack before joining. Server updated to the same version.
+
 ## 1.11.0
 
 - Seasonality 3.8.4 -> 3.8.5: snow builds up on buildings in winter (configurable); new "summer is never cold" option (not in the mountains or Deep North); weather now changes at the same moment as the season; the season timer was reworked; weather configs accept a decimal comma. **Needed to join**: update the pack before joining. Server updated to the same version.
