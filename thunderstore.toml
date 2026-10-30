@@ -6,14 +6,14 @@ schemaVersion = "0.0.1"
 namespace = "GamerSaloon"
 name = "GamerSaloon"
 # Bump this in every PR that should ship — Thunderstore refuses to re-upload an existing version.
-versionNumber = "1.12.0"
+versionNumber = "1.13.0"
 description = "Client mod set for the Gamer Saloon Valheim server: XPortal, Advanced Portals, Seasonality, Quick Stack Store, Equipment and Quick Slots, voice chat, a group to-do board and QoL. Versions pinned to match the server."
 websiteUrl = "https://github.com/sjdodge123/GamerSaloon-Valheim-Modpack"
 containsNsfwContent = false
 
 # Exact versions — they MUST match what the server runs (XPortal refuses any version mismatch).
 [package.dependencies]
-denikson-BepInExPack_Valheim = "5.4.2351"
+denikson-BepInExPack_Valheim = "5.4.2360"
 ValheimModding-Jotunn = "2.30.2"
 ValheimModding-JsonDotNET = "13.0.4"
 ValheimModding-YamlDotNet = "16.3.1"
@@ -22,10 +22,10 @@ MSchmoecker-MultiUserChest = "0.6.2"
 Goldenrevolver-Quick_Stack_Store_Sort_Trash_Restock = "1.4.16"
 RandyKnapp-EquipmentAndQuickSlots = "3.1.3"
 RustyMods-Seasonality = "3.8.6"
-MidnightMods-NetworkPerformanceSystem = "1.18.0"
+MidnightMods-NetworkPerformanceSystem = "1.18.2"
 SpikeHimself-XPortal = "1.2.26"
 RandyKnapp-AdvancedPortals = "1.2.0"
-Ivvty-PortalPreview = "1.5.1"
+Ivvty-PortalPreview = "1.5.2"
 Neobotics-QuietPortals = "1.0.0"
 Toxo-CraftFromChests = "0.4.0"
 # Client-side craft-amount selector (-/+, Shift x10, Ctrl max); not join-enforced.
@@ -33,7 +33,7 @@ MaxiMods-MultiCraft = "1.5.0"
 MainStreetGaming-MassFarming = "1.13.0"
 Biozip-HoverCompare = "0.5.1"
 ComfyMods-ComfyAutoRepair = "1.1.0"
-cjayride-InstantMonsterLootDrop = "0.8.2"
+cjayride-InstantMonsterLootDrop = "0.8.3"
 BORTY-ValheimVoiceChat = "2.1.0"
 warpalicious-Discord_Screenshots = "1.6.8"
 # Shared to-do board; join-enforced by Jotunn (major.minor must match the server's).
