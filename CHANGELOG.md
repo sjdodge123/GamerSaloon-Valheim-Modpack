@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.13.0
+
+- BepInExPack 5.4.2351 -> 5.4.2360: BepInEx 5.4.23.6 and Doorstop 4.6.0. Apple Silicon Macs now run natively and load mods (the pack no longer forces Rosetta; if mods stop loading on an M-series Mac, set `archpreference="x86_64"` in `start_game_bepinex.sh`). Not needed to join. Server updated to the same version.
+- NetworkPerformanceSystem 1.18.0 -> 1.18.2: updated for Valheim 1.0.21. Creatures are now handed to a player who already has the area loaded rather than one still loading in, and the idle-server timeout can be turned off. Not needed to join. Server updated to the same version.
+- Portal Preview 1.5.1 -> 1.5.2 (client-only): portal views get the same haze as the world around them; wolves, lox, deer, hens, skeletons and most other creatures show up in views again (an old view keeps its picture until recaptured: run `frozenportal refresh` next to the portal); workbench and ward range circles, the placement marker and piece highlights no longer appear in views; with EveryTrip a snapshot is captured on every departure.
+- InstantMonsterLootDrop 0.8.2 -> 0.8.3 (client-only): verified against Valheim 1.0.21 and now depends on BepInExPack 5.4.2360. Nothing changes in game.
+
 ## 1.12.0
 
 - Seasonality 3.8.5 -> 3.8.6: turning the snow build-up setting off now clears the snow from buildings straight away instead of waiting for winter to end. **Needed to join**: update the pack before joining. Server updated to the same version.
