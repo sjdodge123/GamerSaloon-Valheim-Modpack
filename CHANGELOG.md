@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.15.0
+
+- RL Valheim Link 0.4.2 -> 0.5.0: death history. Each of your deaths (where and when) and your character's death count now reach Raid Ledger with the rest of your character, so the site can show where you died. Nothing changes in game, and with opt-out on nothing is recorded or sent. **Update the pack**: the server and every player need 0.5.0. Until the server is on 0.5.0 too, character data from a player with recorded deaths stops updating on Raid Ledger (it catches up once both sides match). Server update to the same version follows.
+
 ## 1.14.0
 
 - Seasonality 3.8.6 -> 3.8.7: snow on buildings in winter is now a light dusting instead of full cover; the season timer saves correctly on a fresh install. (The mod's own default for snow build-up is now Off; our server keeps it On.) **Needed to join**: update the pack before joining. Server updated to the same version.
