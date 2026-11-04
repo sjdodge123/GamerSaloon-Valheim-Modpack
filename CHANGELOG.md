@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.14.0
+
+- Seasonality 3.8.6 -> 3.8.7: snow on buildings in winter is now a light dusting instead of full cover; the season timer saves correctly on a fresh install. (The mod's own default for snow build-up is now Off; our server keeps it On.) **Needed to join**: update the pack before joining. Server updated to the same version.
+- Equipment and Quick Slots 3.1.3 -> 3.2.0: quick slots work on a controller (hold Left Bumper and press a D-pad direction; changeable in the config), and the quick slot bar shows the buttons. Quick slot hotkeys no longer fire while the build menu is open, so typing a piece search no longer uses a quick-slot item. Picked-up items no longer hide behind each other in a full quick slot. The chest window stays on screen with extra inventory rows and a large interface scale, and can be dragged (hold Left Alt). New server option to keep hotbar weapons, tools and armor on death (off on our server). Update the pack before joining so you match the server. Server updated to the same version.
+
 ## 1.13.0
 
 - BepInExPack 5.4.2351 -> 5.4.2360: BepInEx 5.4.23.6 and Doorstop 4.6.0. Apple Silicon Macs now run natively and load mods (the pack no longer forces Rosetta; if mods stop loading on an M-series Mac, set `archpreference="x86_64"` in `start_game_bepinex.sh`). Not needed to join. Server updated to the same version.
