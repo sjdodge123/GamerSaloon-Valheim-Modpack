@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.16.0
+
+- New: **Improved Tames 0.2.0**. Tames get an owner: press **E** on an unowned tame to claim it (every tame from before this update starts out Unowned), hold **E** for 1.5 s to release it. Only the owner can command, rename, saddle and ride it; anyone can still feed it. **E** on your own tame cycles Follow / Wander / Sit (Sit holds the exact spot and never starts a fight). Following tames that fall 30 m behind or get stuck appear next to you, and go through portals with you. Optional recall key (`RecallKey`, unset by default). **Needed to join**: update the pack before joining. Server updated to the same version.
+- Equipment and Quick Slots 3.2.0 -> 3.2.1: works with Auga 1.4.1 and newer again (no change for us otherwise). Server updated to the same version.
+- Portal Preview 1.5.2 -> 1.5.6 (client-only): creatures are no longer frozen into portal views (a goblin that hit you as you stepped through stayed there for good); traders stay. Portal views use the game's own sun, haze and ambient colours, so they are no longer darker than the place itself. An old view keeps its picture until recaptured: run `frozenportal refresh` next to the portal.
+- InstantMonsterLootDrop 0.8.3 -> 0.8.5 (client-only): rechecked against Valheim 1.0.21, lighter on performance (pickup range and loot window no longer update every frame), and new optional settings to turn off the corpse despawn sound and particles (off by default, so nothing changes unless you set them).
+
 ## 1.15.0
 
 - RL Valheim Link 0.4.2 -> 0.5.0: death history. Each of your deaths (where and when) and your character's death count now reach Raid Ledger with the rest of your character, so the site can show where you died. Nothing changes in game, and with opt-out on nothing is recorded or sent. **Update the pack**: the server and every player need 0.5.0. Until the server is on 0.5.0 too, character data from a player with recorded deaths stops updating on Raid Ledger (it catches up once both sides match). Server update to the same version follows.
